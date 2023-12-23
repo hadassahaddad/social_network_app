@@ -8,7 +8,7 @@ This is a Flask web application that provide an api to get posts from a json fil
 
 Before you begin, ensure you have met the following requirements:
 
-- Python [version]
+- Python 3.10.4
 
 ## Getting Started
 
@@ -36,4 +36,4 @@ Before you begin, ensure you have met the following requirements:
     flask run
     ```
 
-    Your Flask app will be accessible at [http://localhost:5000](http://localhost:5000).
+    Your Flask app will be accessible at [http://127.0.0.1:5000/api/posts](http://127.0.0.1:5000/api/posts).
