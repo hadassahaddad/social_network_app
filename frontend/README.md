@@ -39,4 +39,4 @@ Before you begin, ensure you have met the following requirements:
     ng serve
     ```
 
-    Your Angular app will be accessible at [http://localhost:4200](http://localhost:4200).
+    Your Angular app will be accessible at [http://localhost:4200/posts](http://localhost:4200/posts).
