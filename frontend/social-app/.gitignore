@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Compiled output
+dist/
+tmp/
+out-tsc/
+
+# Dependency directories
+libs/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# VSCode directories
+.vscode/
+*.code-workspace
+
+# WebStorm directories
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Angular generated files
+e2e/*.js
+e2e/*.map
+e2e/*.spec.ts
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+
+# Angular service worker
+ngsw-config.json
+
+# Angular cache
+.angular/

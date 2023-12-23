@@ -1,0 +1,16 @@
+<div class="container-fluid overflow-scroll h-100 w-100 px-5" infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="500" (scrolled)="onScroll()" [scrollWindow]="false">
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal text-body-emphasis">Posts</h1>
+    </div>
+    <div class="row row-cols-1 g-4 mb-4">
+        <div *ngFor="let post of posts | async" class="col">
+            <app-post-card [post]="post"></app-post-card>
+            <br>
+        </div>
+        <div *ngIf="isLoading" class="d-flex justify-content-center">
+            <div class="spinner-grow text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </div>
+</div>
