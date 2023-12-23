@@ -10,8 +10,8 @@ This is an Angular web application that present a single page that contains post
 
 Before you begin, ensure you have met the following requirements:
 
-- Node.js [version]
-- Angular CLI [version]
+- Node.js version 18.18.2
+- Angular CLI version 17.0.1
 
 ## Getting Started
 
